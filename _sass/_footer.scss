@@ -1,0 +1,63 @@
+// FOOTER
+
+.footer {
+    border-top: 1px solid $alt-border-color;
+}
+
+    .footer__heading {}
+
+    .footer__info {
+        display: flex;
+        flex-direction: column;
+
+        @include min-width($above-tablet) {
+            flex-direction: row;
+            justify-content: space-between;
+        }
+    }
+
+        .footer__info-col {
+            margin: 10px 15px;
+        }
+
+        .footer__info-col-1 {
+
+            @include min-width($above-tablet) {
+                width: 30%;
+            }
+        }
+
+        .footer__info-col-2 {}
+
+        .footer__info-col-3 {
+
+            @include min-width($above-tablet) {
+                width: 40%;
+            }
+        }
+
+// FOOTER CONTACT LIST
+
+.contact-list {
+    list-style: none;
+}
+
+// FOOTER SOCIAL MEDIA LIST
+
+// scss-lint:disable SelectorDepth NestingDepth
+.social-media-list {
+    list-style: none;
+
+    a {
+
+        &:hover {
+            .ivankon {
+                fill: $link-hover-color;
+            }
+        }
+
+        .ivankon {
+            fill: $link-color;
+        }
+    }
+}

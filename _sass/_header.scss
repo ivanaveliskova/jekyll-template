@@ -1,0 +1,60 @@
+// HEADER
+
+.header {
+    border-bottom: 1px solid $alt-border-color;
+}
+    
+    .header__col {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+        .header__title {}
+
+        .header__nav {
+            position: relative;
+
+            &:hover {
+                .path1, .path2, .path3 { fill: $link-color; }
+            }
+
+            .ivankon {
+                @include min-width($above-tablet) {
+                    display: none;
+                }
+
+                .path1 { @include prefix(transition, fill 0.3s linear, webkit);      }
+                .path2 { @include prefix(transition, fill 0.3s linear 0.2s, webkit); }
+                .path3 { @include prefix(transition, fill 0.3s linear 0.4s, webkit); }
+            }
+        }
+
+            .header__nav-items {
+                @include pos(absolute, false, 0, false, false);
+                display: none;
+                padding: 5px;
+                background: $background-color;
+                border: 1px solid $border-color;
+
+                @include min-width($above-tablet) {
+                    display: block;
+                    position: static;
+                    border: 0;
+                }
+
+                .header__nav:hover & {
+                    display: block;
+                }
+            }
+
+                .header__nav-link {
+                    display: block;
+                    margin: 5px;
+                    text-transform: capitalize;
+
+                    @include min-width($above-tablet) {
+                        display: inline-block;
+                        margin: 5px 10px;
+                    }
+                }

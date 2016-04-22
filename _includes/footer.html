@@ -1,0 +1,40 @@
+<footer class="footer">
+
+  <div class="container">
+    <h3 class="footer__heading">{{ site.title }}</h3>
+
+    <div class="footer__info">
+      <div class="footer__info-col footer__info-col-1">
+        <ul class="contact-list">
+          <li>{{ site.title }}</li>
+          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__info-col footer__info-col-2">
+        <ul class="social-media-list">
+          {% if site.github_username %}
+          <li>
+            <a href="https://github.com/{{ include.username }}">
+              {% include ivankon-github.html username=site.github_username %}
+            </a>
+          </li>
+          {% endif %}
+
+          {% if site.twitter_username %}
+          <li>
+            <a href="https://twitter.com/{{ include.username }}">
+              {% include ivankon-twitter.html username=site.twitter_username %}
+            </a>
+          </li>
+          {% endif %}
+        </ul>
+      </div>
+
+      <div class="footer__info-col footer__info-col-3">
+        <p>{{ site.description }}</p>
+      </div>
+    </div>
+  </div>
+
+</footer>

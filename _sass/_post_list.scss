@@ -1,0 +1,19 @@
+.post-list {
+    list-style: none;
+}
+
+    .post-list__item {
+        display: flex;
+        padding: 10px 0;
+        border-bottom: 1px solid $border-color;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+
+        &:last-child {
+            border-bottom: 0;
+        }
+    }
+    
+        .post-list__meta {}
+
+        .post-list__link {}

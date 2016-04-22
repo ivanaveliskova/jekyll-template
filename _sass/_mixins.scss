@@ -1,0 +1,59 @@
+// scss-lint:disable VendorPrefix Indentation StringQuotes VariableForProperty
+
+// PREFIXING
+@mixin prefix($property, $value, $vendors: webkit moz ms o) {
+    @if $vendors {
+        @each $vendor in $vendors {
+            #{"-" + $vendor + "-" + $property}: #{$value};
+        }
+    }
+
+    #{$property}: #{$value};
+}
+
+// TRANSFORM
+@mixin transform($value) {
+    @include prefix(transform, $value, webkit ms);
+}
+
+// MIN-WIDTH
+@mixin min-width($breakpoint) {
+    @media screen and (min-width: $breakpoint) {
+        @content;
+    }
+}
+
+// BOX-SIZING
+@mixin box-sizing($box-model) {
+    @include prefix(box-sizing, $box-model, webkit moz);
+}
+
+// LINEAR-GRADIENT
+@mixin linear-gradient($to, $color-stops...) {
+    $from: opposite-direction($to);
+    background-color: nth($color-stops, 1);
+    background-image: -webkit-gradient(linear, $from, $to, $color-stops);
+    background-image: -webkit-linear-gradient($from, $color-stops);
+    background-image:    -moz-linear-gradient($from, $color-stops);
+    background-image:     -ms-linear-gradient($from, $color-stops);
+    background-image:         linear-gradient(unquote("to #{$to}"), $color-stops);
+}
+
+
+// POSITIONING 
+@mixin pos($type, $top, $right, $bottom, $left) {
+    position: $type;
+    @if $top != false {
+        top: $top;
+    }
+    @if $right != false {
+        right: $right;
+    }
+    @if $bottom != false {
+        bottom: $bottom;
+    }
+    @if $left != false {
+        left: $left;
+    }
+}
+

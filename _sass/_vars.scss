@@ -1,0 +1,30 @@
+// This file will include all general variables
+
+// Breakpoints
+$above-tablet:      768px;
+
+$max-site-width:    1024px;
+
+
+// colors
+$white:             #ffffff;
+$black:             #000000;
+$gray:              #c0c0c0;
+$light-gray:        lighten($gray, 15%);
+$red:               #cc0000;
+$green:             #009900;
+$blue:              #0000ff;
+$orange:            #e65c00;
+$pink:              #c83796;
+$dark-pink:         darken($pink, 20%);
+$yellow:            #ffff66;
+$purple:            #6600cc;
+
+// standard color names
+$highlight-color:   $pink;
+$link-color:        $pink;
+$link-hover-color:  $dark-pink;
+$background-color:  $white;
+$border-color:      $gray;
+$alt-border-color:  $light-gray;
+

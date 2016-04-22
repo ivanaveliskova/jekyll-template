@@ -1,0 +1,24 @@
+<header class="header">
+
+  <div class="container">
+    <div class="header__col">
+      <a class="header__title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+
+      <nav class="header__nav">
+        <a href="#">
+          <span class="ivankon ivankon--menu">{% include icons/ivankon-menu.svg %}</span>
+        </a>
+        
+        <div class="header__nav-items">
+          {% assign pages = site.pages | sort:"order" %}
+          {% for my_page in pages %}
+            {% if my_page.title %}
+            <a class="header__nav-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+            {% endif %}
+          {% endfor %}
+        </div>
+      </nav>
+    </div>
+  </div>
+
+</header>

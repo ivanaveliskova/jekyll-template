@@ -15,18 +15,10 @@
         .header__nav {
             position: relative;
 
-            &:hover {
-                .path1, .path2, .path3 { fill: $link-color; }
-            }
-
             .ivankon {
                 @include min-width($above-tablet) {
                     display: none;
                 }
-
-                .path1 { @include prefix(transition, fill 0.3s linear, webkit);      }
-                .path2 { @include prefix(transition, fill 0.3s linear 0.2s, webkit); }
-                .path3 { @include prefix(transition, fill 0.3s linear 0.4s, webkit); }
             }
         }
 

@@ -6,11 +6,25 @@
 
     .header__image {
         @include hide-text;
+        display: flex;
         height: 60vh;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: 50%;
+        justify-content: center;
+        align-items: center;
     }
+
+    .header__image--filter {
+        @include filter(grayscale(100%));
+    }
+
+        .header__image-text-overlay {
+            @include letterpress;
+            color: $color;
+            font-size: 50px;
+            line-height: 1.5;
+        }
 
         .header__nav {
             display: flex;

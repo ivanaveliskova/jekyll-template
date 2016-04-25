@@ -21,6 +21,8 @@ $yellow:            #ffff66;
 $purple:            #6600cc;
 
 // standard color names
+$color:             $black;
+$opposite-color:    invert($color);
 $highlight-color:   $pink;
 $link-color:        $pink;
 $link-hover-color:  $dark-pink;

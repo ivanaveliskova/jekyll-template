@@ -39,7 +39,6 @@
     background-image:         linear-gradient(unquote("to #{$to}"), $color-stops);
 }
 
-
 // POSITIONING 
 @mixin pos($type, $top, $right, $bottom, $left) {
     position: $type;
@@ -57,9 +56,19 @@
     }
 }
 
-@mixin hide-text{
+// HIDE TEXT
+@mixin hide-text {
     font: 0/0 a;
     text-shadow: none;
     color: transparent;
 }
 
+// FILTER
+@mixin filter($value) {
+    @include prefix(filter, $value, webkit);
+}
+
+// LETTERPRESS
+@mixin letterpress {
+    text-shadow: $white 0 1px 1px;
+}

@@ -1,11 +1,21 @@
 <header class="header">
 
-  {% if page.header_image %}
-    {% if page.background_pos %}
-      <div class="header__image" style="background-image: url({{ page.header_image }}); background-position: {{ page.background_pos }};">{{ site.title }}</div>
-    {% elsif page.header_image %}
-      <div class="header__image" style="background-image: url({{ page.header_image }});">{{ site.title }}</div>
+  {% if page.header_image and page.background_pos and page.header_class %}
+    {% if page.header_class contains "header__image--filter" %}
+      <div class="header__image {{ page.header_class }}" style="background-image: url({{ page.header_image }}); background-position: {{ page.background_pos }};"><span class="header__image-text-overlay">{{ site.title }}</span></div>
+    {% else %}
+      <div class="header__image {{ page.header_class }}" style="background-image: url({{ page.header_image }}); background-position: {{ page.background_pos }};">{{ site.title }}</div>
     {% endif %}
+  {% elsif page.header_image and page.background_pos %}
+    <div class="header__image" style="background-image: url({{ page.header_image }}); background-position: {{ page.background_pos }};">{{ site.title }}</div>
+  {% elsif page.header_image and page.header_class %}
+    {% if page.header_class contains "header__image--filter" %}
+      <div class="header__image {{ page.header_class }}" style="background-image: url({{ page.header_image }});"><span class="header__image-text-overlay">{{ site.title }}</span></div>
+    {% else %}
+      <div class="header__image {{ page.header_class }}" style="background-image: url({{ page.header_image }});">{{ site.title }}</div>
+    {% endif %}
+  {% elsif page.header_image %}
+    <div class="header__image" style="background-image: url({{ page.header_image }});">{{ site.title }}</div>
   {% endif %}
 
   <div class="container">

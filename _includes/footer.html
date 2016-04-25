@@ -15,17 +15,29 @@
         <ul class="social-media-list">
           {% if site.github_username %}
           <li>
-            <a href="https://github.com/{{ include.username }}">
-              {% include ivankon-github.html username=site.github_username %}
+            <a href="https://github.com/{{ site.github_username }}">
+              <a href="https://github.com/{{ site.github_username }}"><span class="ivankon ivankon--github">{% include icons/ivankon-github.svg %}</span><span class="username">Github</span></a>
             </a>
           </li>
           {% endif %}
 
           {% if site.twitter_username %}
           <li>
-            <a href="https://twitter.com/{{ include.username }}">
-              {% include ivankon-twitter.html username=site.twitter_username %}
+            <a href="https://twitter.com/{{ site.twitter_username }}">
+              <a href="https://twitter.com/{{ site.twitter_username }}"><span class="ivankon ivankon--twitter">{% include icons/ivankon-twitter.svg %}</span><span>Twitter</span></a>
             </a>
+          </li>
+          {% endif %}
+
+          {% if site.instagram_username %}
+          <li>
+            <a href="https://www.instagram.com/{{ site.instagram_username }}" target="_blank"><span class="ivankon ivankon--instagram">{% include icons/ivankon-instagram.svg %}</span><span>Instagram</span></a>
+          </li>
+          {% endif %}
+          
+          {% if site.linkedin_username %}
+          <li>
+            <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" target="_blank"><span class="ivankon ivankon--linkedin">{% include icons/ivankon-linkedin.svg %}</span><span>LinkedIn</span></a>
           </li>
           {% endif %}
         </ul>
@@ -35,6 +47,7 @@
         <p>{{ site.description }}</p>
       </div>
     </div>
+    <div class="copyright">Copyright &copy; {{ site.time | date: "%Y" }} Ivana Vel&iacute;&scaron;kov&aacute;</div>
   </div>
 
 </footer>

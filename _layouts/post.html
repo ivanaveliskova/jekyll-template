@@ -5,11 +5,16 @@ layout: default
 
   <header class="post__header">
     <h1 class="post__title" itemprop="name headline">{{ page.title }}</h1>
-    <p class="post__meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
+    <p class="post__meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %} • <span data-length-to-read="">Time</span></p>
   </header>
 
-  <div class="post__content" itemprop="articleBody">
+  <div class="post__content" itemprop="articleBody" data-words="">
     {{ content }}
+
+
+    <h4>Got a question? Tweet @ me!</h4>
+    <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ site.baseurl }}{{ page.url }}&via={{ site.twitter_username }}" data-size="large">Tweet</a>
+    
   </div>
 
 </article>

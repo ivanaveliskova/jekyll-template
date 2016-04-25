@@ -12,10 +12,33 @@ description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog. This is mostly if you are hosting on gh-pages and not using your github handle page as in: your-handle.github.io
+url: "" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
+instagram_username: ivanaveliskova
+linkedin_username: ivanaveliskova
 
 # Build settings
 markdown: kramdown
+
+# Post Settings
+permalink: /blog/:title
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      header_image: "/images/desk_placeholder.jpeg"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      author: "Ivanka"
+      layout: "post"
+      footer_js: 
+        - "/javascripts/calculate_time.js"
+        - "/javascripts/twitter.js"
+      

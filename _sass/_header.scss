@@ -3,50 +3,21 @@
 .header {
     border-bottom: 1px solid $alt-border-color;
 }
-    
-    .header__col {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
+
+    .header__image {
+        @include hide-text;
+        height: 60vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50%;
     }
 
-        .header__title {}
-
         .header__nav {
-            position: relative;
-
-            .ivankon {
-                @include min-width($above-tablet) {
-                    display: none;
-                }
-            }
+            display: flex;
+            justify-content: space-around;
         }
 
-            .header__nav-items {
-                @include pos(absolute, false, 0, false, false);
-                display: none;
-                padding: 5px;
-                background: $background-color;
-                border: 1px solid $border-color;
-
-                @include min-width($above-tablet) {
-                    display: block;
-                    position: static;
-                    border: 0;
-                }
-
-                .header__nav:hover & {
-                    display: block;
-                }
-            }
-
                 .header__nav-link {
-                    display: block;
-                    margin: 5px;
+                    margin: 5px 10px;
                     text-transform: capitalize;
-
-                    @include min-width($above-tablet) {
-                        display: inline-block;
-                        margin: 5px 10px;
-                    }
                 }

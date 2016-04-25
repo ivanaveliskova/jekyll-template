@@ -1,24 +1,25 @@
 <header class="header">
 
-  <div class="container">
-    <div class="header__col">
-      <a class="header__title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+  {% if page.header_image %}
+    {% if page.background_pos %}
+      <div class="header__image" style="background-image: url({{ page.header_image }}); background-position: {{ page.background_pos }};">{{ site.title }}</div>
+    {% elsif page.header_image %}
+      <div class="header__image" style="background-image: url({{ page.header_image }});">{{ site.title }}</div>
+    {% endif %}
+  {% endif %}
 
-      <nav class="header__nav">
-        <a href="#">
-          <span class="ivankon ivankon--menu">{% include icons/ivankon-menu.svg %}</span>
-        </a>
-        
-        <div class="header__nav-items">
-          {% assign pages = site.pages | sort:"order" %}
-          {% for my_page in pages %}
-            {% if my_page.title %}
-            <a class="header__nav-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
-            {% endif %}
-          {% endfor %}
-        </div>
-      </nav>
-    </div>
+  <div class="container">
+
+    <nav class="header__nav">
+      {% assign pages = site.pages | sort:"order" %}
+      {% for my_page in pages %}
+        {% if my_page.title %}
+        <a class="header__nav-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+        {% endif %}
+      {% endfor %}
+      <a class="header__nav-link" href="{{ site.baseurl }}/">Human</a>
+    </nav>
+
   </div>
 
 </header>

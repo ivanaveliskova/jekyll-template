@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: Baker
+permalink: /baker/
 order: 3
 header_image: https://images.unsplash.com/photo-1432139523732-e9d8af332501?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=c1448a45b4b36ba9a0b3705c46e71cbb
 ---

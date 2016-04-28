@@ -15,15 +15,18 @@
         align-items: center;
     }
 
+    .header__image--with-text {
+        color: $color;
+        font-size: 50px;
+        line-height: 1.5;
+    }
+
     .header__image--filter {
         @include filter(grayscale(100%));
     }
 
         .header__image-text-overlay {
             @include letterpress;
-            color: $color;
-            font-size: 50px;
-            line-height: 1.5;
         }
 
         .header__nav {

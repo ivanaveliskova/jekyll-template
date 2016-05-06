@@ -6,18 +6,18 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
+title: Ivana Vel&iacute;&scaron;kov&aacute;
+email: ivanaveliskova@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  I am a Philadelphia based front end developer at <a href='http://www.weblinc.com'>WebLinc</a>.
+  I like to dance; I love to bake. I like to take pictures; I love to code.
+  Contact me if you need me to make cupcakes or want some coding advice.
 baseurl: "" # the subpath of your site, e.g. /blog. This is mostly if you are hosting on gh-pages and not using your github handle page as in: your-handle.github.io
 url: "" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username:   ivanaveliskova
+github_username:    ivanaveliskova
 instagram_username: ivanaveliskova
-linkedin_username: ivanaveliskova
+linkedin_username:  ivanaveliskova
 
 # Build settings
 markdown: kramdown
@@ -31,6 +31,8 @@ defaults:
       path: "" # an empty string here means all files in the project
     values:
       header_image: "/images/desk_placeholder.jpeg"
+      header_bgcolor: "rgb(149, 101, 58)"
+      header_text: "Ivana Vel&iacute;&scaron;kov&aacute;"
   -
     scope:
       path: ""

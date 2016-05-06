@@ -1,0 +1,65 @@
+/*------------------------------------*\
+    #FONTS
+\*------------------------------------*/
+
+// scss-lint:disable VariableForProperty
+
+@font-face {
+    font-style: normal;
+    font-family: 'Merriweather';
+    font-weight: 400;
+    src: url('/fonts/Merriweather_Regular.eot');
+    src: url('/fonts/Merriweather_Regular.woff2') format('woff2'),
+         url('/fonts/Merriweather_Regular.woff') format('woff'),
+         url('/fonts/Merriweather_Regular.ttf');
+}
+
+@font-face {
+    font-style: normal;
+    font-family: 'Merriweather';
+    font-weight: 300;
+    src: url('/fonts/Merriweather_Light.eot');
+    src: url('/fonts/Merriweather_Light.woff2') format('woff2'),
+         url('/fonts/Merriweather_Light.woff') format('woff'),
+         url('/fonts/Merriweather_Light.ttf');
+}
+
+@font-face {
+    font-style: normal;
+    font-family: 'Merriweather';
+    font-weight: 700;
+    src: url('/fonts/Merriweather_Bold.eot');
+    src: url('/fonts/Merriweather_Bold.woff2') format('woff2'),
+         url('/fonts/Merriweather_Bold.woff') format('woff'),
+         url('/fonts/Merriweather_Bold.ttf');
+}
+
+@font-face {
+    font-style: italic;
+    font-family: 'Merriweather';
+    font-weight: 400;
+    src: url('/fonts/Merriweather_Italic.eot');
+    src: url('/fonts/Merriweather_Italic.woff2') format('woff2'),
+         url('/fonts/Merriweather_Italic.woff') format('woff'),
+         url('/fonts/Merriweather_Italic.ttf');
+}
+
+@font-face {
+    font-style: italic;
+    font-family: 'Merriweather';
+    font-weight: 300;
+    src: url('/fonts/Merriweather_LightItalic.eot');
+    src: url('/fonts/Merriweather_LightItalic.woff2') format('woff2'),
+         url('/fonts/Merriweather_LightItalic.woff') format('woff'),
+         url('/fonts/Merriweather_LightItalic.ttf');
+}
+
+@font-face {
+    font-style: italic;
+    font-family: 'Merriweather';
+    font-weight: 700;
+    src: url('/fonts/Merriweather_BoldItalic.eot');
+    src: url('/fonts/Merriweather_BoldItalic.woff2') format('woff2'),
+         url('/fonts/Merriweather_BoldItalic.woff') format('woff'),
+         url('/fonts/Merriweather_BoldItalic.ttf');
+}

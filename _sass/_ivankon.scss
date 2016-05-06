@@ -15,3 +15,11 @@ $size:          20px;
 .ivankon--twitter {}
 
 .ivankon--menu {}
+
+.ivankon--rss {
+    fill: $link-color;
+
+    &:hover {
+        fill: $link-hover-color;
+    }
+}

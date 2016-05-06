@@ -1,0 +1,26 @@
+---
+title: Long Overdue
+description: Things I probably should say first
+date: 2015-02-23 18:31:51
+categories: update
+---
+
+<blockquote class="instagram-media img-right" data-instgrm-captioned data-instgrm-version="4" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); max-width:400px; padding:0; width:100% "><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div> <p style=" margin:8px 0 0 0; padding:0 4px;"> <a href="https://instagram.com/p/wqztXsCUBV/" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_top">#DoctorWho gingerbread men. #NerdistGingerbread</a></p> <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">A photo posted by Ivana Velíšková (@ivanaveliskova) on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2014-12-16T13:13:53+00:00">Dec 16, 2014 at 5:13am PST</time></p></div></blockquote>
+<script async defer src="//platform.instagram.com/en_US/embeds.js"></script>
+
+I probably should have mentioned this way sooner but sometimes I make cool things. With food. I like to think that that makes me awesome. It's great getting to be creative with your food. My mom always told me not to play with my food, but never told me I can't make cool looking creations with it. I started baking when I was in 6th grade. I thought the science behind baking was super weird and fascinating. And I always enjoyed the fact that my grandmother would always have fresh baked goods ready whenever we were visiting, so I loved anything delicious and a bit sweet.
+
+Well, a few months ago, I really got into Doctor Who. I watched every episode from the modern series and was rather beside myself. Now, I become excited at anything even remotely Doctor Who related. I even got myself a lovely Doctor Who phone case which makes me smile any time I check my phone. But, I digress.
+
+Around Christmastime, I was to attend a Christmas party (obviously) held by a friend who shares the same passion for Doctor Who as I. So, I promised her I would make some Doctor Who themed treats for us to celebrate the wonderfulness that is the Doctor. I promised to make all 12 Doctors as gingerbread men, a gingerbread tardis, and Dalek cupcakes (made in a popover pan). Unfortunately, the 12 Doctors themselves took a long time and I had to also divide my time to make the other Christmas treats that were going to be eaten at my house during the holidays. BUT! I accomplished in getting all 12 Doctors completed and was able to Instagram and Tweet it.
+
+<blockquote class="twitter-tweet" data-cards="hidden" lang="en"><p><a href="https://twitter.com/bbcdoctorwho">@bbcdoctorwho</a> <a href="https://twitter.com/BBC">@BBC</a> <a href="https://twitter.com/DoctorWho_BBCA">@DoctorWho_BBCA</a> <a href="https://twitter.com/hashtag/DoctorWho?src=hash">#DoctorWho</a> inspired gingerbread men. <a href="https://twitter.com/hashtag/HappyHolidays?src=hash">#HappyHolidays</a> <a href="http://t.co/SVnkBgnU4m">pic.twitter.com/SVnkBgnU4m</a></p>&mdash; Ivana V. (@ivanaveliskova) <a href="https://twitter.com/ivanaveliskova/status/543810284297920513">December 13, 2014</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+What's even more awesome, is that after I sent out my Tweet, not too long afterwards I was retweeted by the [BBCAmerica Doctor Who][DoctorWho_BBCA]{:target="_blank"} twitter account, which then sent me on a whirlwind of retweets, replies, and favorites. It was one of the best days of my life. About a week later, I saw that [Nerdist][nerdist]{:target="_blank"} was having a "contest" to send them your best "nerdy" creations. Of course, I chose to send out my Doctor Who gingerbread men, which got me a few extra likes on Instagram AND I was one of the chosen few who appeared on the [Nerdist blog][gingerbreadblog]{:target="_blank"}! Whoot! Talk about some awesome accomplishments! I'm super excited to keep making some more nerdy treats and sharing them with everyone!
+
+And that was my long overdue rant that I should have probably mentioned sometime back in December (had this blog even existed back then).
+
+[DoctorWho_BBCA]: https://twitter.com/DoctorWho_BBCA
+[nerdist]: http://www.nerdist.com/
+[gingerbreadblog]: http://www.nerdist.com/2014/12/home-sweet-home-a-few-of-our-favorite-nerdy-gingerbread-creations/

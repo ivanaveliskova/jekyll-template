@@ -1,0 +1,43 @@
+.img-right {
+    margin-left: 10px;
+    width: 30%;
+    max-width: 250px;
+    min-width: 100px;
+    float: right;
+
+    img {
+        width: 100%;
+    }
+}
+
+.img-left {
+    margin-right: 10px;
+    width: 30%;
+    max-width: 250px;
+    min-width: 100px;
+    float: left;
+
+    img {
+        width: 100%;
+    }
+}
+
+.img-center {
+    display: block;
+    margin: auto;
+    max-width: 400px;
+    min-width: 100px;
+
+    @include min-width($above-tablet) {
+        width: 50%;
+    }
+
+    img {
+        width: 100%;
+    }
+}
+
+.img-subtext {
+    font-size: 13px;
+    text-align: center;
+}

@@ -6,6 +6,7 @@
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
+    "fonts",
     "vars",
     "smorgasbord",
     "mixins",
@@ -16,5 +17,6 @@
     "footer",
     "post_list",
     "main",
+    "img",
     "syntax_highlighting"
 ;

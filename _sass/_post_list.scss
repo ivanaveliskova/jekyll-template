@@ -13,7 +13,24 @@
             border-bottom: 0;
         }
     }
+
+    .post-list__rss-subscribe {
+        @include hide-text;
+        display: flex;
+        justify-content: flex-end;
+    }
     
         .post-list__meta {}
 
         .post-list__link {}
+
+    .post__footer {
+        display: flex;
+        font-size: 14px;
+        justify-content: space-between;
+        align-items: center;
+
+        p {
+            margin-bottom: 0;
+        }
+    }

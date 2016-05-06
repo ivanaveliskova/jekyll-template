@@ -1,0 +1,27 @@
+---
+title: WebLinc!
+description: What I am doing now!
+date: 2015-07-20 20:08
+categories: update
+---
+
+Herrrrrrrrrrooooooooooooo!!!!!!!!!!!!
+
+It has been forever and a day since I came here to update the world on my whereabouts.
+
+I am here now!
+
+Since my last post, back in May or so, I have done so many things:
+
+- For about 2 months, I was contracting as a front end developer, which was really exciting to get to work on websites and then actually see the work I did appear online in real places.
+
+- Now I am a full time Front End Web Developer at a little company called WebLinc. Ok, they aren't so little. They are an e-commerce company and they are awesome as sauce. (See what I did there?)
+
+I get to work on building the whole website alongside a team of really smart people. It's quite awesome. ("Everything is awesome! Everything is cool when you're part of a team!") I have been there for almost 2 months now and I really enjoy the work I do. Every day it is something different whether I'm working on a new part of the site or maintaining other clients' sites. Also, everyone is super nice.
+
+I'd also like to direct your attention to an article I recently [read][article] which I found super fascinating.
+
+And that is it for now! I shall hopefully return with updates in the future about new and exciting things that I learn!
+
+
+[article]: http://www.sitepoint.com/12-little-known-css-facts-the-sequel/

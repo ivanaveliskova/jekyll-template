@@ -22,6 +22,12 @@ linkedin_username:  ivanaveliskova
 # Build settings
 markdown: kramdown
 
+collections:
+  portfolio:
+    output: true
+    permalink: /developer/:path/
+
+
 # Post Settings
 permalink: /blog/:title
 
@@ -43,4 +49,10 @@ defaults:
       footer_js: 
         - "/javascripts/calculate_time.js"
         - "/javascripts/twitter.js"
+  -
+    scope:
+      path: ""
+      type: "portfolio"
+    values:
+        layout: "page"
       

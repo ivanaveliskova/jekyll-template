@@ -29,7 +29,7 @@ collections:
 
 
 # Post Settings
-permalink: /blog/:title
+permalink: /blogger/:title
 
 defaults:
   -
@@ -39,6 +39,7 @@ defaults:
       header_image: "/images/desk_placeholder.jpeg"
       header_bgcolor: "rgb(149, 101, 58)"
       header_text: "Ivana Vel&iacute;&scaron;kov&aacute;"
+      hidden: "false"
   -
     scope:
       path: ""

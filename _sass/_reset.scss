@@ -54,7 +54,8 @@ h4 { font-size: 1.12em; }
 h5 { font-size: 0.83em; }
 h6 { font-size: 0.75em; }
 
-p, h1, h2, h3, h4, h5, h6 { 
+p, h1, h2, h3, h4, h5, h6,
+ul, li { 
     margin-bottom: 15px;
 }
 
@@ -70,4 +71,10 @@ a, a span {
         color: $link-hover-color;
         text-decoration: none;
     }
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+    vertical-align: center;
 }

@@ -23,7 +23,7 @@
     <nav class="header__nav">
       {% assign pages = site.pages | sort:"order" %}
       {% for my_page in pages %}
-        {% if my_page.title %}
+        {% if my_page.title and my_page.hidden == "false" %}
         <a class="header__nav-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
         {% endif %}
       {% endfor %}

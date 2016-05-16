@@ -9,3 +9,13 @@
         padding: 15px 30px;
     }
 }
+
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+
+    @include min-width($above-tablet) {
+        flex-direction: row;
+    }
+}

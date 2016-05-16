@@ -4,6 +4,10 @@
     border-bottom: 1px solid $alt-border-color;
 }
 
+.header--no-border {
+    border: 0;
+}
+
     .header__image {
         @include hide-text;
         display: flex;
@@ -14,6 +18,10 @@
         background-position: 50%;
         justify-content: center;
         align-items: center;
+    }
+
+    .header__image--none {
+        display: none;
     }
 
     .header__image--with-text {
@@ -33,6 +41,7 @@
         .header__nav {
             display: flex;
             justify-content: space-around;
+            flex-wrap: wrap-reverse;
         }
 
                 .header__nav-link {

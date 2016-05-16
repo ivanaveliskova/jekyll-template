@@ -1,3 +1,5 @@
+// MAIN
+
 .main {}
 
     .main__header {
@@ -7,3 +9,12 @@
         .main__title {}
 
     .main__content {}
+
+
+
+.main--with-aside {
+
+    @include min-width($above-tablet) {
+        width: 75%;
+    }
+}

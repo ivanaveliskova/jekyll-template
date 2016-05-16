@@ -1,0 +1,13 @@
+// SIDE-NAV
+
+.side-nav {
+
+    @include min-width($above-tablet) {
+        width: 25%;
+        text-align: right;
+    }
+}
+
+    .side-nav__list {
+        list-style: none;
+    }

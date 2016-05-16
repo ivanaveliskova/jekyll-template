@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+<div class="flex-container">
+    <section class="main main--with-aside">
+
+      <header class="main__header">
+        <h1 class="main__title">{{ page.title }}</h1>
+      </header>
+
+      <div class="main__content">
+        {{ content }}
+      </div>
+
+    </section>
+
+    {% include side_nav.html %}
+</div>

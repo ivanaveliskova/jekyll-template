@@ -1,4 +1,4 @@
-<header class="header{% if page.header_class %} {{ page.header_class }}{% endif %}">
+<header class="header">
 
   <div class="header__image{% if page.header_image_class %} {{ page.header_image_class }}{% endif %}" style="{% if page.header_bgcolor %}background-color: {{ page.header_bgcolor }};{% endif %} {% if page.header_image %}background-image: url({{ page.header_image }});{% endif %} {% if page.background_pos %}background-position: {{ page.background_pos }};{% endif %}">
     {% if page.header_image_class contains "header__image--with-text" %}

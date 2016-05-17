@@ -4,10 +4,6 @@
     border-bottom: 1px solid $alt-border-color;
 }
 
-.header--no-border {
-    border: 0;
-}
-
     .header__image {
         @include hide-text;
         display: flex;

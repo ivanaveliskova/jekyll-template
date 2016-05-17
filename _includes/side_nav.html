@@ -1,7 +1,7 @@
 <aside class="side-nav">
     <h3>Recent Projects</h3>
     <ul class="side-nav__list">
-        {% assign projects = site.portfolio | sort: page.date %}
+        {% assign projects = site.portfolio | sort: page.date | reverse %}
         {% for project in projects | limit: 5 %}
             <li class="side-nav__list-item"><a href="{{ project.url | prepend: site.baseurl }}" class="side-nav__list-item-link"> {{ project.title }}</a></li>
         {% endfor %}

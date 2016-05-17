@@ -57,5 +57,4 @@ defaults:
     values:
         layout: "project"
         header_image_class: "header__image--none"
-        header_class: "header--no-border"
       

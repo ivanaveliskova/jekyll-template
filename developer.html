@@ -9,6 +9,6 @@ header_bgcolor: rgb(204, 165, 142)
 {% assign projects = site.portfolio | sort:"order" %}
 <ul class="project-list">
     {% for project in projects %}
-        <li class="project-list__item"><a href="{{ project.url | prepend: site.baseurl }}" class="project-list__item-link"> {{ project.title }}</a></li>
+        <li class="project-list__item"><a href="{{ project.url | prepend: site.baseurl }}" class="project-list__item-link">{{ project.title }}</a></li>
     {% endfor %}
 </ul>

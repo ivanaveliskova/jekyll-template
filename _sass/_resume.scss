@@ -1,0 +1,47 @@
+// RESUME
+
+.resume {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+    .resume__section {
+        margin: 0 0 10px;
+        width: 100%;
+        border-bottom: 1px solid $border-color;
+
+        @include min-width($above-tablet) {
+            margin: 0 2% 10px 0;
+            padding: 10px;
+            width: 49%;
+            background-color: $alt-bg-color;
+            border: 0;
+        }
+
+        & + .resume__section {
+            margin-right: 0;
+        }
+    }
+
+    .resume__section--jobs {
+        padding: 0;
+        width: 100%;
+        background: none;
+        border: 0;
+    }
+
+    .resume__section-heading {
+
+        span {
+            font-size: 14px;
+        }
+    }
+
+        .resume__list {
+            list-style: none;
+        }
+
+            .resume__list-item-header {
+                display: flex;
+                justify-content: space-between;
+            }
